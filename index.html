@@ -9,8 +9,15 @@
 
     <h2>Lost Ark Daily and Weekly Tracker</h2>
     <table>
+        <thead>
+            <colgroup>
+                <td colspan="5">Character Information</td>
+                <td colspan="3">Dailies (character bound)</td>
+                <td colspan="3">Weeklies (character bound)</td>
+            </colgroup>
+        </thead>
         <tbody>
-            <tr class="tableHeader">
+            <tr class="allHeader">
                 <th>Name</th>
                 <td>Class</td>
                 <td>iLvl</td>
@@ -39,38 +46,43 @@
                 <td>
                     <table>
                         <tr>
-                            <label for="chaosDungeon1">1</label>
-                            <input type="checkbox" id="chaosDungeon1" class="chaosDungeonCheck" name="chaos dungeon 1">
-                            <label for="chaosDungeon2">2</label>
-                            <input type="checkbox" id="chaosDungeon2" class="chaosDungeonCheck" name="chaos dungeon 2">
+                            <label>1</label>
+                            <input type="checkbox" class="dailyBound" name="chaos dungeon 1">
+
+                            <label>2</label>
+                            <input type="checkbox" class="dailyBound" name="chaos dungeon 2">
                         </tr>
                     </table>
                 </td>
                 <td>
                     <table>
                         <tr>
-                            <label for="guardianRaid1">1</label>
-                            <input type="checkbox" id="guardianRaid1" class="guardianRaidCheck"
-                                name="guardian raid 1"></input>
-                            <label for="guardianRaid2">2</label>
-                            <input type="checkbox" id="guardianRaid2" class="guardianRaidCheck"
-                                name="guardian raid 2"></input>
+                            <label>1</label>
+                            <input type="checkbox" class="dailyBound" name="guardian raid 1">
+
+                            <label>2</label>
+                            <input type="checkbox" class="dailyBound" name="guardian raid 2">
                     </table>
                 </td>
                 <td>
                     <table>
                         <tr>
-                            <td>insert checkbox</td>
-                            <td>insert checkbox</td>
-                            <td>insert checkbox</td>
+                            <label>1</label>
+                            <input type="checkbox" class="dailyBound" name="una daily 1">
+
+                            <label>2</label>
+                            <input type="checkbox" class="dailyBound" name="una daily 2">
+
+                            <label>3</label>
+                            <input type="checkbox" class="dailyBound" name="una daily 3">
                         </tr>
                     </table>
                 </td>
                 <td>
                     <table>
                         <tr>
-                            <td>Argos</td>
-                            <td>insert check box</td>
+                            <label for="abyssChar1">Argos</label>
+                            <input type="checkbox" class="weeklyBound" name="abyss weekly 1">
                         </tr>
                     </table>
                 </td>
