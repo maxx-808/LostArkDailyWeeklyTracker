@@ -7,10 +7,10 @@ table {
 .tableHeader {
     border: 1px solid;
     width: 100%;
+    background-color: orange;
 }
 
-td,
-th {
+td, th{
     border: 1px solid #dddddd;
     text-align: left;
     padding: 8px;
