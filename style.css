@@ -1,14 +1,16 @@
+.allHeader {
+    border: 1px solid;
+    width: 100%;
+    background-color: orange;
+}
+
 table {
     font-family: arial, sans-serif;
     border-collapse: collapse;
     width: 100%;
 }
 
-.tableHeader {
-    border: 1px solid;
-    width: 100%;
-    background-color: orange;
-}
+
 
 td, th{
     border: 1px solid #dddddd;
