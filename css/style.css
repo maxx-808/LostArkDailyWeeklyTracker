@@ -1,0 +1,43 @@
+label {
+    font-weight: bold;
+}
+
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+td, th{
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+}
+
+
+
+.allHeader {
+    border: 1px solid;
+    width: 100%;
+    background-color: orange;
+}
+
+.charInfoHead {
+    background: lightblue;
+    font-weight: bold;
+}
+
+.dailyHead {
+    background: green;
+    font-weight: bold;
+}
+
+.weeklyHead {
+    background: red;
+    font-weight:bold;
+}
+
+input[type=checkbox] {
+    width: 16px;
+    height: 16px
+}
